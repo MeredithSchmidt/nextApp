@@ -14,7 +14,7 @@ export default function Header() {
           {isAuthenticated ? (
             <>
               <Link href='/dashboard' className='mr-4'>Dashboard</Link>
-              <button onClick={() => logout({ redirect: '/' })} className='bg-blue-500 text-white px-4 py-2 rounded'>Logout</button>
+              <button onClick={() => logout({ redirect: '/login' })} className='bg-blue-500 text-white px-4 py-2 rounded'>Logout</button>
             </>
           ) : (
             <>
