@@ -3,7 +3,7 @@
 import * as React from "react";
 import { useUserfront, LogoutButton } from "@userfront/next/client";
 
-export default async function DashboardPage() {
+export default function DashboardPage() {
   const { user } = useUserfront();
 
   return (
