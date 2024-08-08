@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
 import Link from 'next/link';
-import { useUserfront } from "@userfront/next/client";
+import { useUserfront } from '@userfront/next/client';
 
 export default function Header() {
   const { isAuthenticated, logout } = useUserfront();
